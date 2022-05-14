@@ -1,13 +1,15 @@
 {
-  "name": "coba-vite-vue",
-  "private": true,
-  "version": "0.0.0",
+  "name": "vue-editor-zen",
+  "version": "0.0.1",
+  "main": "src/editor.vue",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "vite": "^2.9.7",
     "@vueuse/head": "^0.7.6",
     "markdown-it-prism": "^2.2.4",
     "prism-theme-vars": "^0.2.2",
@@ -19,9 +21,5 @@
     "vue": "^3.2.25",
     "vue-router": "^4.0.15",
     "vue-router-prefetch": "2"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^2.3.1",
-    "vite": "^2.9.7"
   }
 }
